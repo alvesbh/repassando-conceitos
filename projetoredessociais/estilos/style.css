@@ -27,6 +27,7 @@ section#telefone{
     width: 311px;
     background: url('../img/frame-iphone.png') no-repeat;
 
+
 }
 
 iframe#tela{
@@ -37,16 +38,14 @@ iframe#tela{
     height: 471px;
     
 }
-#menua{
-    display: flex;
-    position: absolute;
-    top: 79vh;
-    left: 20px;
+#menua{ 
+    position: relative;
+    top: 10vh;
+    left: 16px;
     
     
 }
-#menua img{
-    display: block;
+#menua img{   
     width: 50px;
     border-radius: 50%;
     padding: 20px;
