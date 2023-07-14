@@ -1,0 +1,11 @@
+
+body{
+    background-color: black;
+}
+header{
+    background-image: var();
+}
+header section#logo{
+    background-color: aqua;
+    text-align: right;
+}
