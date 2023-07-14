@@ -1,11 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-body{
+
+section#menu{
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+}
+section#menu img{
+    margin: 5px;
+}
+#menu1{
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    font-size: 30px;
+
+}
+section#main{
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px;
+}
+section#main h1,h2{
+    text-align: center;
+}
+section#main p{
+    margin: 10px;
+}
+
+section#rodape{
     background-color: black;
+    color: white;
+
+    height: 100px;
 }
-header{
-    background-image: var();
+section#rodape h1{
+ text-align: center;
 }
-header section#logo{
-    background-color: aqua;
-    text-align: right;
+section#rodape ul{
+    list-style: none;
+    color: white;
 }
